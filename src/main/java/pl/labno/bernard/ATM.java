@@ -10,10 +10,12 @@ public class ATM {
 
     private Bank bank;
 
+
     public ATM(Bank bank)
     {
         this.bank = bank;
     }
+
 
     public String getErrorMessage()
     {
